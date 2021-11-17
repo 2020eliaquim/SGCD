@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    /*FONTES*/
+    --montserrat: 'Montserrat';
+    --montserrat-bold: '600';
+    --montserrat-tiny: '200';
+
+    /* CORES */
+    --color-white: #fff;
+    --color-black: #333;
+    --color-deep: #193498;
+    --color-shallow: #113CFC;
+    --color-teal: #1597E5;
+    --color-cold: #69DADB;
+    --color-border: #ccc;
+
+    /*ESPAÇAMENTOS*/
+    --space-default: 1rem;
+    --height-header: 3rem;
+
+    /*BORDAS*/
+    --btn-radius: 5px;
+}
