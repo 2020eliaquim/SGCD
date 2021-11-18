@@ -1,3 +1,5 @@
+/*DOCUMENT*/
+
 * {
     padding: 0;
     margin: 0;
@@ -7,7 +9,6 @@
 body {
     font-family: var(--montserrat);
 }
-
 
 /* HEADER LEFT */
 
@@ -25,6 +26,11 @@ header .left-header {
     display: flex;
     align-items: center;
     position: relative;
+}
+
+header .left-header a {
+    text-decoration: none;
+    color: var(--color-white);
 }
 
 header .left-header h2 {

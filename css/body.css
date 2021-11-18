@@ -1,4 +1,4 @@
-#container {
+.container {
     height: calc(100vh - var(--height-header));
     padding: 10px;
     display: grid;

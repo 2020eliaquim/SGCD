@@ -15,6 +15,14 @@
     --color-cold: #69DADB;
     --color-border: #ccc;
 
+    /*CORES --- CONTROL*/
+    --color-button: #787878;
+    --color-table-data: #ddd;
+    --color-table-data-2: #b6b5b5;
+    --color-add: #21bd21;
+    --color-delete: #df1616; 
+    --color-disable: #f5b835;
+
     /*ESPAÇAMENTOS*/
     --space-default: 1rem;
     --height-header: 3rem;

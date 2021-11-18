@@ -1,7 +1,7 @@
 const btnBurger = document.querySelector('#icon-burger'),
 btnArrow = document.querySelector('#icon-arrow'),
 sideMenu = document.querySelector('#side-menu'),
-btnDocument = document.querySelector('.container');
+btnDocument = document.querySelector('#container-enployeers');
 
 
 function showIcon() {

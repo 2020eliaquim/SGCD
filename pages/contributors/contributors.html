@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMD - Colaboradores</title>
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./../../css/header.css" />
+    <link rel="stylesheet" href="./../../css/variables.css">
+    <link rel="stylesheet" href="./../../css/body.css">
+    <link rel="stylesheet" href="./contributors.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
+<body>
+    <header>
+        <div class="left-header">
+            <i class='bx bx-menu icon--show' id="icon-burger"></i>
+            <i class='bx bx-left-arrow-alt icon--hide' id="icon-arrow"></i>
+            <h2><a href="./../../index.html">SGCD</a></h2>
+            <ul>
+                <li>+Projeto</li>
+                <li>+Equipe</li>
+            </ul>
+        </div>
+        <div class="right-header">
+            <i class='bx bx-search' id="icon-search"></i>
+            <input type="search" placeholder="pesquisar...">
+            <ul>
+                <li id="btn-notify"><i class='bx bx-bell'></i></li>
+                <li id="btn-account"><i class='bx bx-user-circle'></i></li>
+            </ul>
+        </div>
+    </header>
+
+    <aside id="side-menu">
+        <ul>
+            <li>
+                <a href="./../../index.html"><i class='bx bxs-dashboard'></i>Dashboard</a>
+            </li>
+            <li>
+                <a href="#"><i class='bx bx-bar-chart-square'></i>Cronograma</a>
+            </li>
+            <li>
+                <a href="#"><i class='bx bx-map-alt' ></i>Projetos</a>
+            </li>
+            <li>
+                <a href="#"><i class='bx bx-refresh' ></i>Ciclos</a>
+            </li>
+
+            <li>
+                <a href="./contributors.html"><i class='bx bx-group'></i>Colaboradores</a>
+            </li>
+
+            <li>
+                <a href="#"><i class='bx bxs-user-account' ></i>Equipes</a>
+            </li>
+        </ul>
+    </aside>
+
+    <div class="menu-header">
+        <ul>
+            <li id="user-photo">
+                <img src="./../../images/person-example.jpg" alt="thumb-perfil" class="user-photo-account">
+                <p>Michelle Muller</p>
+            </li>
+            <li class="opt"><a href="#"><i class='bx bx-cog' ></i>Definições</a></li>
+            <li class="opt"><a href="#"><i class='bx bx-user'></i>Perfil</a></li>
+            <li class="opt"><a href="#"><i class='bx bx-exit'></i>Sair</a></li>
+        </ul>
+    </div>
+
+    <div class="notification">
+        <div class="msg">
+            <p>É necessário adicionar mais um elemento no projeto.</p>
+        </div>
+
+        <div class="msg">
+            <p>A tarefa montagem está parada, devido falta de metal.</p>
+        </div>
+
+        <div class="msg">
+            <p>Faltando material para conclusão da tarefa fazer soldagem</p>
+        </div>
+    </div>
+    <!-- para cima é header -->
+
+    <div id="container-enployeers">
+        <div class="search-field">
+            <h2>Colaboradores</h2>
+            <div class="search">
+                <p>pesquisar por nome:</p>
+                <input type="search">
+            </div>
+        </div>
+        <div class="enployeers">
+            <table>
+                <tbody>
+                    <tr class="table-header-enployeer">
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Cargo</th>
+                        <th>Equipe</th>
+                        <th>Detalhe</th>
+                    </tr>
+                    <tr class="table-data-enployeer">
+                        <td>01</td>
+                        <td>Bernando Gonçalves Dias</td>
+                        <td>Analista de T.I</td>
+                        <td>Analista & Suporte</td>
+                        <td class="manager-detail">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fas fa-id-card"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-user-edit"></i></a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table-data-enployeer">
+                        <td>02</td>
+                        <td>Eliaquin Jordão de Araújo</td>
+                        <td>Analista de T.I</td>
+                        <td>Analista & Suporte</td>
+                        <td class="manager-detail">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fas fa-id-card"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-user-edit"></i></a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr class="table-data-enployeer">
+                        <td>03</td>
+                        <td>João Vila Albuquerque</td>
+                        <td>Desenvolvedor Senior</td>
+                        <td>Gerencia e Suporte</td>
+                        <td class="manager-detail">
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fas fa-id-card"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-user-edit"></i></a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="enployeers-control">
+            <ul>
+                <li><a href="#"><i class="fas fa-user-plus"></i></a></li>
+                <li><a href="#"><i class="fas fa-user-times"></i></a></li>
+                <li><a href="#"><i class="fas fa-user-alt-slash"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- abaixo logica -->
+    <script src="./../../js/script-1.js"></script>
+    <script src="./script.js"></script>
+</body>
