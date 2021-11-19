@@ -13,3 +13,18 @@ function clickedBtn(index) {
 clickedBtn(0);
 clickedBtn(1);
 clickedBtn(2);
+
+function startAddEnployeer(element) {
+    const popup = document.querySelector(`.${element}`);
+
+    popup.classList.add('show');
+
+    popup.addEventListener('click', (e) => {
+        if(e.target.id == 'background-blur' || e.target.id == 'closed') {
+            popup.classList.remove('show');
+        }
+    });
+}
+
+const btnAdd = document.getElementById('btnAdd');
+btnAdd.addEventListener('click', () => startAddEnployeer('enployeers-add'));

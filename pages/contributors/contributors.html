@@ -87,10 +87,17 @@
 
     <div id="container-enployeers">
         <div class="search-field">
-            <h2>Colaboradores</h2>
-            <div class="search">
-                <p>pesquisar por nome:</p>
-                <input type="search">
+            <div>
+                <h2>Colaboradores</h2>
+                <div class="search">
+                    <p>pesquisar por nome:</p>
+                    <input type="search">
+                </div>
+            </div>
+            <div class="status-deployees">
+                <ul>
+                    <li>Desativados</li>
+                </ul>
             </div>
         </div>
         <div class="enployeers">
@@ -157,10 +164,90 @@
 
         <div class="enployeers-control">
             <ul>
-                <li><a href="#"><i class="fas fa-user-plus"></i></a></li>
-                <li><a href="#"><i class="fas fa-user-times"></i></a></li>
-                <li><a href="#"><i class="fas fa-user-alt-slash"></i></a></li>
+                <li id="btnAdd"><i class="fas fa-user-plus"></i></li>
+                <li id="btnDelete"><i class="fas fa-user-times"></i></li>
+                <li id="btnDisable"><i class="fas fa-user-alt-slash"></i></li>
             </ul>
+        </div>
+    </div>
+
+    <div class="enployeers-add" id="background-blur">
+        <div class="popup-add">
+
+            <div class="title">
+                <h2>Novo colaborador</h2>
+                <i class="fas fa-times-circle" id="closed"></i>
+            </div>
+
+            <div class="container-form">
+                <div class="nn">
+                    outra didv
+                </div>
+                <form method="get" class="form-add-enployees">
+                    <div class="form-field-id">
+                        <label>Id:</label>
+                        <input type="text" name="id" disabled>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="#">Nome:</label>
+                        <input type="text" name="name">
+                    </div>
+
+                    <div class="form-field">
+                        <label>Função:</label>
+                        <select name="job" id="#">
+                            <option value="0">Selecionar</option>
+                            <option value="1">Soldador</option>
+                            <option value="2">Cabista</option>
+                            <option value="3">Analista de T.I</option>
+                            <option value="4">Desenvolvedor</option>
+                        </select>
+                    </div>
+
+                    <div class="form-field">
+                        <div>
+                            <label for="#">Nº Celular:</label>
+                            <input type="text" name="phone">
+                        </div>
+
+                        <div>
+                            <label for="#">Sexo:</label>
+                            <div id="radio-button">
+                                <p>M</p>
+                                <input type="radio" name="male" checked>
+                                <p>F</p>
+                                <input type="radio" name="female">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="#">Endereço:</label>
+                        <input type="text" name="street">
+                    </div>
+
+                    <div class="form-field">
+                        <div>
+                            <label for="#">Bairro:</label>
+                            <input type="text" name="district">
+                        </div>
+
+                        <div>
+                            <label for="#">Cidade:</label>
+                            <input type="text" name="city">
+                        </div>
+                    </div>
+
+                    <div class="form-photo">
+                        <label for="file-archive">Foto</label>
+                        <input type="file" id="file-archive">
+                    </div>
+
+                    <input type="submit" value="Salvar" id="btn-salve">
+                </form>
+            </div>
+
         </div>
     </div>
 
