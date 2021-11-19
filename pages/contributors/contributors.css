@@ -45,6 +45,32 @@
     border-radius: 10px;
 }
 
+.status-deployees {
+    margin: 0 20px;
+    width: 60%;
+}
+
+.status-deployees ul {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.status-deployees ul li {
+    list-style: none;
+    border: 1px solid var(--color-border);
+    padding: 2px 10px;
+}
+.status-deployees ul li i {
+    margin-bottom: 5px;
+    font-size: 40pt;
+}
+
+.status-deployees ul li p {
+    font-weight: 600;
+    text-align: center;
+    font-size: 13pt;
+}
+
 .enployeers {
     background: var(--color-white);
     border: 1px solid var(--color-border);
@@ -348,7 +374,7 @@ form .form-field input {
     border: 1px solid var(--color-border);
     outline: none;
     padding: 5px;
-    font-size: 14pt;
+    font-size: 12pt;
     border-radius: 5px;
 }
 
